@@ -1,4 +1,4 @@
-import { Switch, Route } from "wouter";
+The 'Message Seller' button says 'Coming Soon'. For now, please make it functional so that when clicked, it opens the user's phone dialer with the seller's number, or creates a simple chat window."import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
@@ -7,7 +7,6 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import PostItem from "@/pages/PostItem";
 import ItemDetails from "@/pages/ItemDetails";
-
 function Router() {
   return (
     <Switch>
