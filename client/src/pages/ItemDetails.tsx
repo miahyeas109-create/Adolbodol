@@ -134,7 +134,7 @@ export default function ItemDetails() {
                   <div className="flex items-start gap-3 p-3 rounded-lg bg-secondary/50">
                     <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-0.5">Contact Info</p>
+                      <p className="text-xs folnt-semibold text-muted-foreground uppercase tracking-wider mb-0.5">Contact Info</p>
                       <p className="font-medium break-all">
                         {item.contactInfo !== "Not provided" ? item.contactInfo : "No contact info provided"}
                       </p>

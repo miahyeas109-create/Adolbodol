@@ -67,3 +67,4 @@ async function seedDatabase() {
     console.log("Database seeded!");
   }
 }
+
